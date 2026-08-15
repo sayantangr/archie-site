@@ -1,36 +1,108 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Archisman Guha Roy&#039;s Website </title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Personal blog site of Archisman Guha Roy.">
-        <meta name="keywords" content="Archisman, archisman guha roy, guha roy, archismangr, 2.5g, 10g, network, blog, blogs, portfolio, shop">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.archisman.net" /> 
-        <!-- Import JetBrains Mono from Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-        <style type="text/css">
-            body { text-align: center; padding: 10%; font: 20px; JetBrains Mono, Manrope; color: #333; }
-            h1 { font-size: 50px; margin: 0; }
-            article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
-            a { color: #dc8100; text-decoration: none; }
-            a:hover { color: #333; text-decoration: none; }
-            @media only screen and (max-width : 480px) {
-                h1 { font-size: 40px; }
-            }
-        </style>
-    </head>
-    <body>
-        <article>
-            <h1>Hello 👋</h1>
-            <p>I'm Archisman Guha Roy. I was born on April 2022, WestBengal, India.</p>
-            
-            <p> Archishman appears in Hindu sacred texts like the Vishnu Sahasranamam, where it serves as a descriptor for Lord Vishnu.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Personal blog site of Archisman Guha Roy.">
+  <meta name="keywords" content="Archisman, archisman guha roy, guha roy, archismangr, 2.5g, 10g, network, blog, blogs, portfolio, shop">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://www.archisman.net" /> 
 
-            <p>My parents will maintain my site for the time being until I takeover. 😃</p>
-            
-        </article>
-    </body>
+  <title>Archisman Guha Roy&#039;s Website </title>
+
+  
+  <!-- JetBrains Mono Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #0f1419;
+      --text-primary: #e6edf3;
+      --text-secondary: #9198a1;
+      --accent-color: #79c0ff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      line-height: 1.8;
+    }
+
+    main {
+      max-width: 650px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .highlight {
+      color: var(--accent-color);
+      font-weight: 600;
+    }
+
+    .meta-text {
+      color: var(--text-secondary);
+    }
+
+    .wave {
+      display: inline-block;
+      animation: wave 2.5s infinite;
+      transform-origin: 70% 70%;
+    }
+
+    @keyframes wave {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(14deg); }
+      20% { transform: rotate(-8deg); }
+      30% { transform: rotate(14deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(10deg); }
+      60% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>Hello <span class="wave">👋</span></h1>
+
+    <p>
+      I'm <span class="highlight">Archisman Guha Roy</span>. I was born in April 2022, West Bengal, India.
+    </p>
+
+    <p class="meta-text">
+      Archishman appears in Hindu sacred texts like the Vishnu Sahasranamam, where it serves as a descriptor for Lord Vishnu.
+    </p>
+
+    <p>
+      My parents will maintain my site for the time being until I takeover. 😃
+    </p>
+  </main>
+
+</body>
 </html>
